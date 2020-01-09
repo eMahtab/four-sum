@@ -28,10 +28,6 @@ public static List<List<Integer>> fourSum(int[] nums, int target) {
 }
 
 private static void addResult(List<List<Integer>> result, Integer[] quadruplet) {
-	if(result.size() == 0) {
-		result.add(Arrays.asList(quadruplet));
-	}
-		
 	Set<Integer> fourSum = new HashSet<Integer>(Arrays.asList(quadruplet));
 	boolean alredayExists = false;
 	for(List<Integer> list: result) {
