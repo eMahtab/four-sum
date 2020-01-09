@@ -47,3 +47,10 @@ private static void addResult(List<List<Integer>> result, Integer[] quadruplet) 
 	}	
  }
 ```
+
+The runtime complexity of above implementation is O(n^4) and space complexity is O(1)
+```
+Runtime Complexity = O(n^4)
+Space Complexity   = O(1)
+```
+
